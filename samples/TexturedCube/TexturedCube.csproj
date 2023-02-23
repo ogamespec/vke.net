@@ -1,5 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-  <ItemGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0-windows</TargetFrameworks>
+	</PropertyGroup>
+
+	<ItemGroup>
 <!--    <ProjectReference Include="..\..\addons\VkvgPipeline\VkvgPipeline.csproj" />-->
   </ItemGroup>
 </Project>

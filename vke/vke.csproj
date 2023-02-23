@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TargetFramework>net6.0-windows</TargetFramework>
 
 		<ReleaseVersion>$(VkeReleaseVersion)</ReleaseVersion>
 
@@ -43,7 +43,7 @@
 	</ItemGroup>
 
 	<ItemGroup Condition=" '$(UseStbSharp)' == 'true'">
-		<PackageReference Include="StbImageSharp" Version="2.22.4" />
+		<PackageReference Include="StbImageSharp" Version="2.27.13" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -54,7 +54,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.7.1" />
+		<PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="7.0.0-preview.2.22152.2" />
 	</ItemGroup>
 
 	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">

@@ -13,7 +13,8 @@
     <License>MIT</License>
     <PackageReleaseNotes></PackageReleaseNotes>
     <SynchReleaseVersion>false</SynchReleaseVersion>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>    
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<TargetFrameworks>net6.0-windows</TargetFrameworks>
   </PropertyGroup>
 
 </Project>
